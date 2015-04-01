@@ -22,7 +22,7 @@ SECRET_KEY = '5p2d%akd+hv2a(9%sb_1v+j309op1nzgflszn&-llz=3lpne6e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-TEMPLATE_DEBUG = True
+TEMPLATE_DEBUG = DEBUG
 
 ALLOWED_HOSTS = []
 
@@ -36,6 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'monapp_pdf',
 )
 
 MIDDLEWARE_CLASSES = (
