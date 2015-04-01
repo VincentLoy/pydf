@@ -1,6 +1,6 @@
 from django.conf.urls import patterns, include, url
 from django.contrib import admin
 
-urlpatterns = patterns('',
-    url(r'^home$', 'monapp_pdf.views.home'),
+urlpatterns = patterns('monapp_pdf.views',
+    url(r'^home$', 'home'),
 )
